@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Bayu Setiaji</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url('images/background.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 90vw;
+            max-width: 800px;
+            min-height: 100vh;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 40px auto;
+        }
+
+        .sidebar {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .sidebar h2 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+
+        .sidebar img {
+            width: 120px;
+            border-radius: 50%;
+            margin: 20px 0;
+        }
+
+        .sidebar p {
+            margin: 8px 0;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #3498db;
+        }
+
+        .additional-info {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        h3 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .education p {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .education span {
+            min-width: 120px;
+            text-align: right;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background: #34495e;
+            color: white;
+            padding: 5px 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        /* Karya Project */
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project {
+            flex: 1 1 calc(50% - 20px);
+            background-color: #ecf0f1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .project-details {
+            padding: 15px;
+        }
+
+        .project-details h4 {
+            margin: 0 0 5px 0;
+            color: #2c3e50;
+        }
+
+        .project-details p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 95vw;
+                margin: 20px auto;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .projects {
+                flex-direction: column;
+            }
+
+            .project {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Bayu Setiaji</h2>
+            <img src="images/foto1.jpg" alt="Foto Profil">
+            <p>Email: bsetiaji382@gmail.com</p>
+            <p>Telepon: +62 896 4472 8859</p>
+            <div class="social-icons">
+                <a href="https://instagram.com/reiternae" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://facebook.com/BayuUwU" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://x.com/reiternae" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+            <div class="additional-info">
+                <p>Lokasi: Sleman, Yogyakarta, Indonesia</p>
+                <p>Bahasa: Indonesia, Inggris</p>
+                <p><em>"Ingfo Mie Ayam."</em></p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h3>Tentang Saya</h3>
+                <p>Halo nama saya <strong>Bayu Setiaji</strong>, saya adalah mahasiswa Universitas Teknologi Yogyakarta prodi Teknik Komputer yang memiliki minat dalam dunia Computer Engineer dan Multimedia. Saya memiliki kemampuan dalam Graphic Design & Video Editing.</p>
+            </div>
+
+            <div class="section">
+                <h3>Pengalaman Kerja dan Organisasi</h3>
+				<p><strong>(2020 - sekarang) - </strong>Freelance sebagai Video Editor & Graphic Designer</p>
+                <p><strong>(2022) - </strong>Praktik Kerja Lapangan sebagai Engineer di Hotel Prime Plaza Hotel Jogjakarta</p>
+                <p><strong>(2024) - </strong>Panitia Pameran Besar Fotografi x Seni Rupa sebagai PDD bertanggung jawab dalam Design dan Dokumentasi</p>
+            </div>
+
+            <div class="section education">
+                <h3>Pendidikan</h3>
+                <p><strong>SMK N 5 Yogyakarta</strong><span>(2020 - 2023)</span></p>
+                <p><strong>Universitas Teknologi Yogyakarta</strong><span>(2023 - Sekarang)</span></p>
+            </div>
+
+            <div class="section skills">
+                <h3>Keterampilan</h3>
+                <ul>
+                    <li>Video Editing</li>
+                    <li>Graphic Design</li>
+                    <li>Fotografi</li>
+					<li>Pemrograman IoT</li>
+                </ul>
+            </div>
+
+            <!-- Karya Project Section -->
+            <div class="section">
+    <h3>Karya Project Saya</h3>
+    <div class="projects">
+        <div class="project">
+            <img src="images/project1.jpg" alt="Project 1">
+            <div class="project-details">
+                <h4>Project Gas & Temperature Monitoring</h4>
+                <p>Project Microcontroller pada Mata Kuliah Sistem Tertanam</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="images/project2.jpg" alt="Project 2">
+            <div class="project-details">
+                <h4>Desain Produk</h4>
+                <p>Iklan produk dengan methode object blend, menggunakan software Adobe Photoshop</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="images/project3.JPG" alt="Project 3">
+            <div class="project-details">
+                <h4>Konten Instagram</h4>
+                <p>Konten Instagram Fotografi Low Exposure</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="images/project4.gif" alt="Project 4">
+            <div class="project-details">
+                <h4>Video Editing Collaboration</h4>
+                <p>Video kolaborasi dengan Organisasi Video Editor Lokal maupun Luar, Biasa Menggunakan Software Adobe After Effects & Adobe Premiere Pro</p>
+            </div>
+        </div>
+    </div>
+</div>
+            <!-- End Karya -->
+        </div>
+    </div>
+</body>
+</html>
